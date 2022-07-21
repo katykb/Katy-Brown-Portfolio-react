@@ -13,10 +13,11 @@ code {
 }
 
 .navbar-brand {
-  margin-left: 300px !important;
+  margin-left: -200px !important;
   margin: 50px;
   font-size: 50px !important;
   display: flex;
+  color: whitesmoke !important;
   
 }
 
@@ -24,6 +25,12 @@ code {
   font-size: 40px;
   padding: 60px !important;
   margin-left: 400px;
+  color: whitesmoke !important;
+  }
+
+  #about-link, #projects-link, #contact-link{
+    color: whitesmoke !important;
+    margin-left: 50px;
   }
 
   .about-paragraph {

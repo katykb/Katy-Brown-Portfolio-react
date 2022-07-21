@@ -15,9 +15,9 @@ function navagation() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto color-nav" text="light">
-            <Nav.Link href="#About">About</Nav.Link>
-            <Nav.Link href="#Projects">Projects</Nav.Link>
-            <Nav.Link href="#Contact">Contact</Nav.Link>
+            <Nav.Link id="about-link" href="#About">About</Nav.Link>
+            <Nav.Link id="projects-link" href="#Project">Projects</Nav.Link>
+            <Nav.Link id="contact-link" href="#Contact">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
