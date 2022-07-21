@@ -2,12 +2,12 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import "../../src/index.css";
+import "../../src/App.css";
 //import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function navagation() {
   return (
-    <Navbar bg="dark" expand="lg" text="light">
+    <Navbar bg="dark" expand="lg" text="light" fixed="top" id="nav">
       <Container>
         <Navbar.Brand href="#home" bg="dark" text="light">
           Katy Brown
