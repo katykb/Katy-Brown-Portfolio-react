@@ -24,5 +24,18 @@ code {
   font-size: 40px;
   padding: 60px !important;
   margin-left: 400px;
-  
   }
+
+  .about-paragraph {
+    margin-top: 75px !important;
+    margin-left: 600px !important;
+    position: absolute;
+    font-size: 29px !important;
+  }
+
+  .about-pic{
+   height: 100vh;
+   margin-left: -400px;
+   position: relative;
+  }
+ 

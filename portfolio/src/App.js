@@ -1,4 +1,5 @@
 import Navigation from "./componets/Navigation";
+import About from "./componets/About ";
 //import Footer from "./componets/Footer";
 // import Contact from "./componets/Contact";
 // import About from "./componets/About "
@@ -13,6 +14,7 @@ function App() {
   return (
     <div className="App">
       <Navigation />
+      <About />
 {/* <Router>
   <Routes>
   {/* <Route path = "/Home" element = { <Home />} /> */}
