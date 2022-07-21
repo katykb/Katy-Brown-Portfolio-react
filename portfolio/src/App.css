@@ -66,3 +66,7 @@ code {
   margin-left: -400px;
   position: relative;
 }
+
+.carousel-item{
+margin-top: -200px;
+}

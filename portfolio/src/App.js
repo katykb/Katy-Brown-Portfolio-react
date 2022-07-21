@@ -2,7 +2,7 @@ import Navigation from "./componets/Navigation";
 import About from "./componets/About ";
 import Home from "./componets/Home"
 //import Footer from "./componets/Footer";
-// import Contact from "./componets/Contact";
+import Contact from "./componets/Contact";
 // import About from "./componets/About "
 import Projects from "./componets/Projects"
 // import Home from "./componets/Home"
@@ -18,6 +18,7 @@ function App() {
       <Home />
       <About />
       <Projects />
+      <Contact />
 
     </div>
   );
