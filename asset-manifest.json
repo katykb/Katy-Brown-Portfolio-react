@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Katy-Brown-Portfolio-react/static/css/main.c4757fa5.css",
+    "main.js": "/Katy-Brown-Portfolio-react/static/js/main.ab5ae5e3.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Katy-Brown-Portfolio-react/static/js/787.1ed0c42c.chunk.js",
+    "static/media/weatherApp.jpg": "/Katy-Brown-Portfolio-react/static/media/weatherApp.5c52ed3f061bd9bf0375.jpg",
+    "static/media/homePagePic.jpg": "/Katy-Brown-Portfolio-react/static/media/homePagePic.eff8592cc46c29179ea3.jpg",
+    "static/media/aboutPic.jpg": "/Katy-Brown-Portfolio-react/static/media/aboutPic.2731b39007f91caf821e.jpg",
+    "static/media/imsImage.jpg": "/Katy-Brown-Portfolio-react/static/media/imsImage.a6960475bf3cb557935e.jpg",
+    "static/media/Food Dictionary Landing.png": "/Katy-Brown-Portfolio-react/static/media/Food Dictionary Landing.1ffa44887318705861ba.png",
+    "index.html": "/Katy-Brown-Portfolio-react/index.html",
+    "main.c4757fa5.css.map": "/Katy-Brown-Portfolio-react/static/css/main.c4757fa5.css.map",
+    "main.ab5ae5e3.js.map": "/Katy-Brown-Portfolio-react/static/js/main.ab5ae5e3.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Katy-Brown-Portfolio-react/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c4757fa5.css",
+    "static/js/main.ab5ae5e3.js"
+  ]
+}
