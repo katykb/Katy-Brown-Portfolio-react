@@ -16,7 +16,7 @@ function navagation() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto color-nav" text="light">
             <Nav.Link id="about-link" href="#About">About</Nav.Link>
-            <Nav.Link id="projects-link" href="#Project">Projects</Nav.Link>
+            <Nav.Link id="portfolio-link" href="#Portfolio">Portfolio</Nav.Link>
             <Nav.Link id="contact-link" href="#Contact">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
