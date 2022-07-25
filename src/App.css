@@ -70,6 +70,7 @@ code {
 .contactForm{
   margin-top: 300px;
   margin-left: 300px;
+  height: 100vh;
 }
 
 .formText {

@@ -1,0 +1,17 @@
+.main-footer {
+  height: 50px !important;
+}
+
+.footer-row {
+  align-items: center;
+  margin-left: 1100px;
+  margin-top: 50px;
+ }
+
+.gitHub-icon,
+.linkedIn-icon,
+.email-icon {
+  font-size: 30px;
+  margin-right: 50px;
+  color: black !important;
+}

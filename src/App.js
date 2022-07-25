@@ -1,5 +1,6 @@
+import React  from "react";
 import Header from "./componets/Header";
-//import Footer from "./componets/Footer";
+import Footer from "./componets/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../src/App.css";
 
@@ -8,7 +9,7 @@ function App() {
     <div className="App">
       <Header />
 
-     
+      <Footer />
     </div>
   );
 }

@@ -12,6 +12,7 @@
     "react-bootstrap": "^2.4.0",
     "react-dom": "^18.2.0",
     "react-facebook-photo-grid": "^1.0.10",
+    "react-icons": "^4.4.0",
     "react-photo-feed": "^1.0.13",
     "react-photo-grid": "^1.4.11",
     "react-router-dom": "^6.3.0",
