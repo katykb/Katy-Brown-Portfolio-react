@@ -1,50 +1,39 @@
-import React from "react";
-import Carousel from "react-bootstrap/Carousel";
-import imsImage from "../../src/imsImage.jpg"
-import weatherImage from "../../src/weatherApp.jpg"
-import foodImage from "../../src/Food Dictionary Landing.png"
+import React, { Component } from "react";
+import imsImage from "../../src/assets/imsImage.jpg";
+import weatherImage from "../../src/assets/weatherApp.jpg";
+import foodImage from "../../src/assets/Food Dictionary Landing.png";
+import jateImage from "../../src/assets/jateImage.jpg";
+import employeeTracker from "../../src/assets/employeeTracker.jpg";
+import workDayPlanner from "../../src/assets/workDayPlanner.jpg";
+import "../../src/Images.css"
+//import Header from "./Header";
 
-export default function projectExamples() {
-  return (
-    <Carousel>
-      <Carousel.Item interval={1000}>
-        <img
-          className="d-block w-100"
-          src={imsImage}
-          alt="First slide"
-          id="ims-image"
-        />
-        <Carousel.Caption>
-          <h3>Inventory Management System</h3>
-          <p>Technology Used: JavaScript, Handlebars, SQL, MySQL2, CSS</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item interval={1000}>
-        <img
-          className="d-block w-100"
-          src={weatherImage}
-          alt="Second slide"
-          id="weather-image"
-        />
-        <Carousel.Caption>
-          <h3>Weather Search</h3>
-          <p>Technology Used: HTML, CSS, JavaScript</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src={foodImage}
-          alt="Third slide"
-          id="food-image"
-        />
-        <Carousel.Caption>
-          <h3>Food Dictionary</h3>
-          <p>
-          Technology Used: HTML, CSS, JavaScript, Materialize CSS
-          </p>
-        </Carousel.Caption>
-      </Carousel.Item>
-    </Carousel>
-  );
+class Portfolio extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      images: "",
+      imagesArray: [
+        imsImage,
+        weatherImage,
+        foodImage,
+        jateImage,
+        employeeTracker,
+        workDayPlanner,
+      ],
+      showModal: false,
+      popImages: "",
+    };
+  }
+  render() {
+    let imagesArray = this.state.imagesArray;
+    const images = imagesArray.map((images, index) => {
+      return <img className="singleImage" src={images} key={index} />;
+    });
+    return <div className="Portfolio">
+    <div className="imageGallery">{images}</div>
+    </div>;
+  }
 }
+
+export default Portfolio;

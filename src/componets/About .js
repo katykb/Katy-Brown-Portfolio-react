@@ -3,8 +3,8 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "../../src/App.css";
-import aboutPic from "../../src/aboutPic.jpg"
-import Navigation from "./Navigation";
+import aboutPic from "../../src/assets/aboutPic.jpg"
+import Header from "./Header"
 
 export default function About() {
   return (
@@ -20,13 +20,11 @@ export default function About() {
             appreciate your time!
           </p>
           <p>
-            Beginning Developer bringing over 10 years of merchandising
+            Software Engineer bringing over 10 years of merchandising
             experience and a service-oriented mindset to a career in technology.
           
-            Trained at SMU in Full-Stack Web Development and acquired skills in
-            both front and back-end development.  A creative thinker
-            excited about building applications that are UI focused and
-            efficient.
+            I am creative, hard-working and ingenuitive. I am excited about 
+            building applications that are UI and UX focused as well as efficient.
             <br />
             <br />
             Through my years of professional experience, I have acquired several

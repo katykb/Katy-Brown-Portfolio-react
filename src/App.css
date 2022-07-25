@@ -32,7 +32,7 @@ code {
 }
 
 .home-pic {
-  background-image: url("../src/homePagePic.jpg");
+  background-image: url("../src/assets/homePagePic.jpg");
   background-size: cover;
   height: 100vh;
   width: 200%;
@@ -55,10 +55,10 @@ code {
 }
 
 .about-paragraph {
-  margin-top: 75px !important;
+  margin-top: 225px !important;
   margin-left: 600px !important;
   position: absolute;
-  font-size: 29px !important;
+  font-size: 25px !important;
 }
 
 .about-pic {
@@ -67,6 +67,16 @@ code {
   position: relative;
 }
 
-.carousel-item{
-margin-top: -200px;
+.contactForm{
+  margin-top: 300px;
+  margin-left: 300px;
+}
+
+.formText {
+  width: 700px !important;
+  /* margin-left: 300px; */
+}
+
+.messageText {
+  height: 200px;
 }

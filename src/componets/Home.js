@@ -1,5 +1,5 @@
 import React from "react";
-import homeImage from "../../src/homePagePic.jpg";
+import homeImage from "../../src/assets/homePagePic.jpg";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
