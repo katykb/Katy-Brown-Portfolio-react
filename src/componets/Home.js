@@ -8,5 +8,6 @@ import navagation from "./Navigation";
 import Fader from './Fader'
 
 export default function Home() {
-  return <img className="home-pic" src={homeImage} alt="home-graffiti" />;
+  return<div>
+    </div>;
 }

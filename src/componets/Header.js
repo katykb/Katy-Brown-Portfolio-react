@@ -8,6 +8,7 @@ import Home from "./Home";
 import About from "./About ";
 import Contact from "./Contact";
 import Portfolio from "./Portfolio";
+import Resume from "./Resume";
 import { useState } from "react";
 
 function Header() {
@@ -24,6 +25,9 @@ function Header() {
     }
     if (currentPage === "About") {
       return <About />;
+    }
+    if (currentPage === "Resume") {
+      return <Resume />;
     }
     if (currentPage === "Contact") {
       return <Contact />;
