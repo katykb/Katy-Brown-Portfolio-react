@@ -8,9 +8,9 @@ import Header from "./Header"
 
 export default function About() {
   return (
-    <Container className="grid">
+    <Container className="">
       <Row>
-        <Col lg={2} sm={12}>
+        <Col lg={8} sm={12}>
             <img className="about-pic"src={aboutPic} alt="myPic" />
             </Col>
         <Col lg={5} className="about-paragraph">

@@ -1,3 +1,9 @@
-.home-pic {
-    height: 30vh;
+
+
+.home-container {
+    background-color: aqua !important;
+    width: 100%;
+    background-size: cover;
 }
+
+

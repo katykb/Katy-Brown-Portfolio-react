@@ -10,7 +10,6 @@ import "../../src/App.css";
 import "../../src/Images.css";
 import Card from "react-bootstrap/Card";
 
-
 const Portfolio = () => {
   const cardDetails = [
     {
@@ -76,10 +75,12 @@ const Portfolio = () => {
   };
 
   return (
-    <div className="grid">
+    <div className="grid page-container">
       {cardDetails.map(renderCard)}
-      <div className="box-display"></div>
-    </div>
+      {/* <div className="content-wrap"> */}
+        {/* <div className="box-display"></div> */}
+      </div>
+    // </div>
   );
 };
 

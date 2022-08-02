@@ -15,21 +15,21 @@ function Header() {
   
   const renderPage = () => {
     if (currentPage === "Home") {
-      return <Home />;
+      return <About />;
     }
     if (currentPage === "Portfolio") {
       return <Portfolio />;
     }
-    if (currentPage === "About") {
-      return <About />;
-    }
+    // if (currentPage === "About") {
+    //   return <About />;
+    // }
     if (currentPage === "Resume") {
       return <Resume />;
     }
     if (currentPage === "Contact") {
       return <Contact />;
     }
-    return <Home />;
+    return <About />;
   };
 
   return (

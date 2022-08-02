@@ -63,7 +63,7 @@ code {
 }
 
 .about-paragraph {
-  margin-top: 120px !important;
+  margin-top: 190px !important;
   margin-left: 600px !important;
   position: absolute;
   font-size: 25px !important;
@@ -71,7 +71,9 @@ code {
 
 .about-pic {
   height: 100vh;
-  margin-left: -400px;
+
+  margin-top: -40px;
+  margin-left: -300px;
   position: relative;
 }
 
@@ -110,4 +112,5 @@ code {
 .katy-resume-pic {
   margin-top: 200px;
   margin-left: 250px;
+  height: 75vh;
 }

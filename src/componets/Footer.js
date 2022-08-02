@@ -12,17 +12,20 @@ const Footer = () => {
     <div className="main-footer">
       <div className="container">
         <div className="row-footer">
-          <div class="col footer-text">&copy;{new Date().getFullYear()} | Katy Brown</div>
-          <div className="footer-text">Contact and Social</div>
-          <a href="https://github.com/katykb">
-            <FaGithub className="gitHub-icon" />
-          </a>
-          <a href="https://www.linkedin.com/in/katy-brown-a7984084/">
-            <FaLinkedin className="linkedIn-icon" />
-          </a>
-          <a href="mailto:katybr35@gmail.com">
-            <FaEnvelopeSquare className="email-icon" />
-          </a>
+          <div class="col footer-text">
+            &copy;{new Date().getFullYear()} | Katy Brown
+          </div>
+          <div className="footer-icons">
+            <a href="https://github.com/katykb">
+              <FaGithub className="gitHub-icon" />
+            </a>
+            <a href="https://www.linkedin.com/in/katy-brown-a7984084/">
+              <FaLinkedin className="linkedIn-icon" />
+            </a>
+            <a href="mailto:katybr35@gmail.com">
+              <FaEnvelopeSquare className="email-icon" />
+            </a>
+          </div>
         </div>
       </div>
     </div>

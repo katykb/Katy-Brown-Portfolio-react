@@ -16,7 +16,7 @@ function Navagation({ currentPage, handlePageChange }) {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto color-nav" text="light">
           
-            <Nav.Link id="about-link" href="#About" onClick={() => handlePageChange('About')}>About</Nav.Link>
+            {/* <Nav.Link id="about-link" href="#About" onClick={() => handlePageChange('About')}>About</Nav.Link> */}
             <Nav.Link id="portfolio-link" href="#Portfolio" onClick={() => handlePageChange('Portfolio')} >Portfolio</Nav.Link>
             <Nav.Link id="portfolio-link" href="#Resume" onClick={() => handlePageChange('Resume')} >Resume</Nav.Link>
             <Nav.Link id="contact-link" href="#Contact" onClick={() => handlePageChange('Contact')}>Contact</Nav.Link>
