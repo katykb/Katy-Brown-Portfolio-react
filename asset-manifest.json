@@ -1,20 +1,26 @@
 {
   "files": {
-    "main.css": "/Katy-Brown-Portfolio-react/static/css/main.c4757fa5.css",
-    "main.js": "/Katy-Brown-Portfolio-react/static/js/main.ab5ae5e3.js",
+    "main.css": "/Katy-Brown-Portfolio-react/static/css/main.d8a80550.css",
+    "main.js": "/Katy-Brown-Portfolio-react/static/js/main.fb797ce1.js",
     "static/js/787.1ed0c42c.chunk.js": "/Katy-Brown-Portfolio-react/static/js/787.1ed0c42c.chunk.js",
     "static/media/weatherApp.jpg": "/Katy-Brown-Portfolio-react/static/media/weatherApp.5c52ed3f061bd9bf0375.jpg",
     "static/media/homePagePic.jpg": "/Katy-Brown-Portfolio-react/static/media/homePagePic.eff8592cc46c29179ea3.jpg",
+    "static/media/graffiti.jpg": "/Katy-Brown-Portfolio-react/static/media/graffiti.e5618061d8b2016be1cc.jpg",
     "static/media/aboutPic.jpg": "/Katy-Brown-Portfolio-react/static/media/aboutPic.2731b39007f91caf821e.jpg",
     "static/media/imsImage.jpg": "/Katy-Brown-Portfolio-react/static/media/imsImage.a6960475bf3cb557935e.jpg",
     "static/media/Food Dictionary Landing.png": "/Katy-Brown-Portfolio-react/static/media/Food Dictionary Landing.1ffa44887318705861ba.png",
+    "static/media/katy-resume.jpg": "/Katy-Brown-Portfolio-react/static/media/katy-resume.90a3b1926b31026d021f.jpg",
+    "static/media/employeeTracker.jpg": "/Katy-Brown-Portfolio-react/static/media/employeeTracker.6fd42f9d8823628f9cc4.jpg",
+    "static/media/workDayPlanner.jpg": "/Katy-Brown-Portfolio-react/static/media/workDayPlanner.50749ab4c072ef3deaee.jpg",
+    "static/media/jateImage.jpg": "/Katy-Brown-Portfolio-react/static/media/jateImage.5b7ddd106ce90d11d136.jpg",
+    "static/media/resume.svg": "/Katy-Brown-Portfolio-react/static/media/resume.254b7760ad64f22650f98aaa44c64f01.svg",
     "index.html": "/Katy-Brown-Portfolio-react/index.html",
-    "main.c4757fa5.css.map": "/Katy-Brown-Portfolio-react/static/css/main.c4757fa5.css.map",
-    "main.ab5ae5e3.js.map": "/Katy-Brown-Portfolio-react/static/js/main.ab5ae5e3.js.map",
+    "main.d8a80550.css.map": "/Katy-Brown-Portfolio-react/static/css/main.d8a80550.css.map",
+    "main.fb797ce1.js.map": "/Katy-Brown-Portfolio-react/static/js/main.fb797ce1.js.map",
     "787.1ed0c42c.chunk.js.map": "/Katy-Brown-Portfolio-react/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c4757fa5.css",
-    "static/js/main.ab5ae5e3.js"
+    "static/css/main.d8a80550.css",
+    "static/js/main.fb797ce1.js"
   ]
 }
