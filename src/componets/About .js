@@ -8,7 +8,7 @@ import Header from "./Header"
 
 export default function About() {
   return (
-    <Container>
+    <Container className="grid">
       <Row>
         <Col lg={2} sm={12}>
             <img className="about-pic"src={aboutPic} alt="myPic" />

@@ -1,17 +1,30 @@
 .main-footer {
-  height: 50px !important;
+  height: 150px !important;
+  background-color: rgb(250, 124, 6);
+  color: whitesmoke;
+  padding-top: 3em;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  margin-top: -20px;
 }
 
+.footer-text{
+  margin-top: 5px;
+}
 .footer-row {
   align-items: center;
   margin-left: 1100px;
-  margin-top: 50px;
+  margin-top: 20px;
  }
 
 .gitHub-icon,
 .linkedIn-icon,
 .email-icon {
   font-size: 30px;
-  margin-right: 50px;
-  color: black !important;
+  margin-top: -20px;
+  margin-right: 10px;
+  text-align: center;
+  color: whitesmoke !important;
 }

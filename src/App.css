@@ -15,6 +15,16 @@ code {
     monospace;
 }
 
+.page-container{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content-wrap{
+  flex: 1;
+}
+
 #nav {
   background-color: rgb(250, 124, 6) !important;
 }
@@ -53,7 +63,7 @@ code {
 }
 
 .about-paragraph {
-  margin-top: 225px !important;
+  margin-top: 120px !important;
   margin-left: 600px !important;
   position: absolute;
   font-size: 25px !important;
@@ -64,6 +74,16 @@ code {
   margin-left: -400px;
   position: relative;
 }
+
+.grid{
+  min-height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 200px;
+  margin-left: 150px;
+  height: 100vh;
+  }
 
 .contactForm{
   margin-top: 300px;
@@ -78,4 +98,16 @@ code {
 
 .messageText {
   height: 200px;
+}
+
+.resume-pic {
+  height: 35vh;
+  margin-top: 175px;
+  margin-left: -70px;
+  border-radius: 20%;
+}
+
+.katy-resume-pic {
+  margin-top: 200px;
+  margin-left: 250px;
 }
